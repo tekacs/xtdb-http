@@ -1,0 +1,4 @@
+{:deps {com.xtdb/xtdb-core {:mvn/version "1.20.0"}
+        com.xtdb/xtdb-http-server {:mvn/version "1.20.0"}}
+ 
+ :aliases {:http {:main-opts ["-m" "http"]}}}
